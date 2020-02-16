@@ -7,6 +7,6 @@ import retrofit2.http.GET;
 
 public interface EmployeeApi {
 
-    @GET("/employee")
+    @GET("/api/v1/employees")
     Observable<JsonElement> getEmployees();
 }
